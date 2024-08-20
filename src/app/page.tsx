@@ -1,10 +1,11 @@
-import Link from "next/link";
+import { Link } from "merelyui";
 
 export default function Home() {
   return (
-    <main>
-      Hello MerelyUI
-      <Link href="/components/installation">DOCS</Link>
+    <main className="w-full h-screen flex flex-col gap-4 justify-center items-center text-white text-xl">
+      <h1>Hello MerelyUI</h1>
+      <h1>Coming Soon</h1>
+      <Link href="/components/installation" label="DOCS" secondary large/>
     </main>
   );
 }
