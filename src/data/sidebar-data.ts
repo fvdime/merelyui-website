@@ -13,7 +13,7 @@ export const sidebarData: Array<SidebarDataProps> = [
     title: "Getting Started",
     links: [
       { label: "Installation", href: "/components/installation" },
-      { label: "Use", href: "/components/use" },
+      { label: "Quick Start", href: "/components/quickstart" },
       { label: "Customize Components", href: "/components/customize" },
       { label: "Components", href: "/components" },
     ],
