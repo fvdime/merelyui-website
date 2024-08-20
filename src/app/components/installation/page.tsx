@@ -107,7 +107,7 @@ export default function InstallationPage() {
           </div>
         </Clipboard>
       </div>
-      <Navigation nextLink="Use" nextHref="/components/use" />
+      <Navigation nextLink="Quick Start" nextHref="/components/quickstart" />
     </article>
   );
 }
