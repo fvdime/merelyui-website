@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 :root {
+  --color-fill: rgb(5, 5, 5);
+}
+
+
+/* :root {
   --color-fill: rgb(240, 240, 240);
 }
 
@@ -10,7 +15,7 @@
   :root {
     --color-fill: rgb(5, 5, 5);
   }
-}
+} */
 
 html,
 body {
