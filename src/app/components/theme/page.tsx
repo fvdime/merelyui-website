@@ -193,10 +193,11 @@ export default function ThemePage() {
                       <code>;</code>
                     </div>
                   ))}
+                  <code className="ml-12">{"},"}</code>
                 </div>
               ))}
               <div className="flex flex-col items-start justify-center">
-                <code className="ml-8">{"}"}</code>
+                <code className="ml-8">{"},"}</code>
                 <code className="ml-4">{"}"}</code>
               </div>
             </div>
@@ -215,7 +216,7 @@ export default function ThemePage() {
             <div className="w-full inline-flex items-center">
               <code className="text-pink-500">&lt;Input</code>
               <code className="text-pink-500">&gt;</code>
-              <h6>This input will use MerelyUI theme!</h6>
+              <h6>This input will use MerelyUI default theme!</h6>
               <code className="text-pink-500">&lt;/Input&gt;</code>
             </div>
             <div className="w-full inline-flex items-center">
