@@ -23,8 +23,8 @@ export default function ThemePage() {
         </Link>
         . MerelyUI includes a default theme by default.
       </h5>
-      <ul className="w-full flex flex-col gap-4">
-        <li className="w-full flex flex-col items-start justify-center gap-4">
+      <ul className="w-full flex flex-col gap-12">
+      <li className="w-full flex flex-col items-start justify-center gap-4">
           <h4 className="text-lg font-medium tracking-tight">
             List of themes:
           </h4>
@@ -45,6 +45,41 @@ export default function ThemePage() {
             </div>
           </div>
           <Button theme="theme-nova">Button</Button>
+        </li>
+        <li className="w-full flex flex-col items-start justify-center gap-4">
+          <h5 className="text-lg font-medium tracking-tight">
+            List of all color names:
+          </h5>
+          <div className="relative w-full">
+            <table className="w-full text-sm text-left text-zinc-100">
+              <thead className="text-xs uppercase font-thin border-b border-dashed border-bermuda-100">
+                <tr>
+                  <th scope="col" className="px-6 py-2.5">
+                    Color Name
+                  </th>
+                  <th scope="col" className="px-6 py-2.5">
+                    Description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {ThemeData.map((theme, i) => (
+                  <tr
+                    key={i}
+                    className="border-b border-dashed border-bermuda-100"
+                  >
+                    <th
+                      scope="row"
+                      className="px-6 py-4 font-medium whitespace-nowrap"
+                    >
+                      {theme.title}
+                    </th>
+                    <td className="px-6 py-4 text-sm text-zinc-300">{theme.description}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </li>
         <li className="w-full flex flex-col items-start justify-center gap-4">
           <h4 className="text-lg font-medium tracking-tight">
