@@ -15,6 +15,7 @@ export const sidebarData: Array<SidebarDataProps> = [
       { label: "Installation", href: "/components/installation" },
       { label: "Quick Start", href: "/components/quickstart" },
       { label: "Customize Components", href: "/components/customize" },
+      { label: "Theme", href: "/components/theme" },
       { label: "Components", href: "/components" },
     ],
   },

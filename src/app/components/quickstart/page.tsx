@@ -60,8 +60,7 @@ export default function UsePage() {
         </li>
         <li className="w-full flex flex-col items-start justify-center gap-4">
           <h6 className="text-sm">
-            3. Then you can modify the component with daisyUI additional utility
-            classes:
+            3. Then you can modify the component with additional variants:
           </h6>
           <div className="w-full text-white text-sm bg-bermuda-900 rounded p-8">
             <h6 className="text-pink-500">&lt;Button</h6>

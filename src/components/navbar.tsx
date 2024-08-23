@@ -6,9 +6,11 @@ import { Kbd, Link } from "merelyui";
 export default function Navbar() {
   return (
     <header className="w-full h-16 bg-black/50 backdrop-blur border-b border-bermuda-700 fixed top-0 left-0 right-0 text-white z-50 flex flex-col justify-center">
-      <div className="w-full max-w-screen-xl mx-auto flex flex-row justify-between items-center">
+      <div className="w-full max-w-screen-xl mx-auto flex flex-row justify-between items-center px-4 md:px-0">
         <div className="w-full flex flex-row justify-start items-center gap-4">
-          <button className="visible lg:hidden">...</button>
+          <button className="visible lg:hidden">
+            <svg className="w-5 h-5 text-gray-100"  xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" fill="currentColor"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </button>
           {/* LOGO IMG */}
           <a href="/" className="font-semibold text-xl">
             MerelyUI
@@ -45,9 +47,9 @@ export default function Navbar() {
             </span>
           </button>
         </>
-        <div className="w-full flex flex-row justify-end items-center gap-2">
-          <Link href="/" label="Components" tertiary/>
-          <Link href="/" label="Templates" tertiary/>
+        <div className="w-full hidden md:flex flex-row justify-end items-center gap-2 text-white">
+          {/* <Link href="/" label="Components" small/>
+          <Link href="/" label="Templates" small/> */}
         </div>
       </div>
     </header>
