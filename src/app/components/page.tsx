@@ -10,7 +10,7 @@ export default function ComponentPage() {
         {/* <Card title="dfsfsd" subtitle="sdf;lf" description=";dfkslfkdsl" src="https://images.unsplash.com/photo-1520367691844-3df6787b3b6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1dHRvbnxlbnwwfHwwfHx8MA%3D%3D" href="" secondary/>
         <Card title="dfsfsd" src="https://images.unsplash.com/photo-1520367691844-3df6787b3b6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1dHRvbnxlbnwwfHwwfHx8MA%3D%3D" href="" secondary/> */}
       </div>
-      <Navigation prevLink="Customize Components" prevHref="/components/customize" nextLink="Accordion" nextHref="/components/accordion"/>
+      <Navigation prevLink="Theme" prevHref="/components/theme" nextLink="Accordion" nextHref="/components/accordion"/>
     </main>
   );
 }

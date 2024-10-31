@@ -91,8 +91,8 @@ export default function UsePage() {
       <Navigation
         prevLink="Quick Start"
         prevHref="/components/quickstart"
-        nextLink="Components"
-        nextHref="/components"
+        nextLink="Theme"
+        nextHref="/components/theme"
       />
     </article>
   );
